@@ -1,0 +1,17 @@
+defaults: &defaults
+  ftp_host:         localhost
+  ftp_login:        foo
+  ftp_password:     foopw
+  ftp_filename:     patents.csv
+  ftp_path:         Public/test
+  downloader_class: FtpDownloader
+
+test:
+  <<: *defaults
+
+development:
+  <<: *defaults
+
+production:
+  ftp_path:         Public/prod
+  <<: *defaults
