@@ -1,4 +1,5 @@
-module BasicJob
+require 'mechanize'
+
   class Job
     attr_reader :downloader
 
@@ -26,4 +27,3 @@ module BasicJob
       }
     end
   end
-end
