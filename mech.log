@@ -1,0 +1,93 @@
+# Logfile created on 2011-05-11 23:19:56 -0700 by logger.rb/25413
+I, [2011-05-11T23:20:36.493263 #21274]  INFO -- : Net::HTTP::Get: /
+D, [2011-05-11T23:20:36.493451 #21274] DEBUG -- : request-header: accept => */*
+D, [2011-05-11T23:20:36.493500 #21274] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_2; de-at) AppleWebKit/531.21.8 (KHTML, like Gecko) Version/4.0.4 Safari/531.21.10
+D, [2011-05-11T23:20:36.493540 #21274] DEBUG -- : request-header: accept-encoding => gzip,identity
+D, [2011-05-11T23:20:36.493614 #21274] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-05-11T23:20:36.493667 #21274] DEBUG -- : request-header: host => www.google.com
+D, [2011-05-11T23:20:36.493714 #21274] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2011-05-11T23:20:36.672068 #21274] DEBUG -- : Read 799 bytes
+D, [2011-05-11T23:20:36.672431 #21274] DEBUG -- : Read 9848 bytes
+D, [2011-05-11T23:20:36.672648 #21274] DEBUG -- : response-header: date => Thu, 12 May 2011 06:20:36 GMT
+D, [2011-05-11T23:20:36.672749 #21274] DEBUG -- : response-header: expires => -1
+D, [2011-05-11T23:20:36.672846 #21274] DEBUG -- : response-header: cache-control => private, max-age=0
+D, [2011-05-11T23:20:36.672946 #21274] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2011-05-11T23:20:36.673040 #21274] DEBUG -- : response-header: set-cookie => PREF=ID=0467762e18f414e5:FF=0:TM=1305181236:LM=1305181236:S=8PXELhCezkxbBH4-; expires=Sat, 11-May-2013 06:20:36 GMT; path=/; domain=.google.com, NID=46=WSJGyJR-PtXABOd-8e4HAJ2kPU68NW1v8rwpoq8hc-s7inx1S6I7n13oen8g9XzgubBC1bT5I4uXx2CuT14Rdkwzo2gb3A1c1JyYT45jeTIbWKiELBOQ-1Sw7-9QGxGH; expires=Fri, 11-Nov-2011 06:20:36 GMT; path=/; domain=.google.com; HttpOnly
+D, [2011-05-11T23:20:36.673141 #21274] DEBUG -- : response-header: content-encoding => gzip
+D, [2011-05-11T23:20:36.673232 #21274] DEBUG -- : response-header: server => gws
+D, [2011-05-11T23:20:36.673295 #21274] DEBUG -- : response-header: content-length => 9848
+D, [2011-05-11T23:20:36.673354 #21274] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2011-05-11T23:20:36.673438 #21274] DEBUG -- : gunzip body
+D, [2011-05-11T23:20:36.676598 #21274] DEBUG -- : saved cookie: PREF=ID=0467762e18f414e5:FF=0:TM=1305181236:LM=1305181236:S=8PXELhCezkxbBH4-
+D, [2011-05-11T23:20:36.678022 #21274] DEBUG -- : saved cookie: NID=46=WSJGyJR-PtXABOd-8e4HAJ2kPU68NW1v8rwpoq8hc-s7inx1S6I7n13oen8g9XzgubBC1bT5I4uXx2CuT14Rdkwzo2gb3A1c1JyYT45jeTIbWKiELBOQ-1Sw7-9QGxGH
+I, [2011-05-11T23:20:36.678847 #21274]  INFO -- : status: 200
+I, [2011-05-11T23:21:00.075114 #21274]  INFO -- : Net::HTTP::Get: /search?hl=en&source=hp&q=Hello
+D, [2011-05-11T23:21:00.075195 #21274] DEBUG -- : request-header: accept => */*
+D, [2011-05-11T23:21:00.075230 #21274] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_2; de-at) AppleWebKit/531.21.8 (KHTML, like Gecko) Version/4.0.4 Safari/531.21.10
+D, [2011-05-11T23:21:00.075267 #21274] DEBUG -- : request-header: accept-encoding => gzip,identity
+D, [2011-05-11T23:21:00.075297 #21274] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-05-11T23:21:00.075325 #21274] DEBUG -- : request-header: host => www.google.com
+D, [2011-05-11T23:21:00.075354 #21274] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2011-05-11T23:21:00.075384 #21274] DEBUG -- : request-header: cookie => PREF=ID=0467762e18f414e5:FF=0:TM=1305181236:LM=1305181236:S=8PXELhCezkxbBH4-; NID=46=WSJGyJR-PtXABOd-8e4HAJ2kPU68NW1v8rwpoq8hc-s7inx1S6I7n13oen8g9XzgubBC1bT5I4uXx2CuT14Rdkwzo2gb3A1c1JyYT45jeTIbWKiELBOQ-1Sw7-9QGxGH
+D, [2011-05-11T23:21:00.075421 #21274] DEBUG -- : request-header: referer => http://www.google.com/
+D, [2011-05-11T23:21:00.128357 #21274] DEBUG -- : Read 994 bytes
+D, [2011-05-11T23:21:00.128534 #21274] DEBUG -- : Read 3356 bytes
+D, [2011-05-11T23:21:00.128871 #21274] DEBUG -- : Read 4774 bytes
+D, [2011-05-11T23:21:00.129284 #21274] DEBUG -- : Read 6192 bytes
+D, [2011-05-11T23:21:00.129707 #21274] DEBUG -- : Read 7452 bytes
+D, [2011-05-11T23:21:00.130089 #21274] DEBUG -- : Read 8870 bytes
+D, [2011-05-11T23:21:00.131495 #21274] DEBUG -- : Read 10288 bytes
+D, [2011-05-11T23:21:00.131787 #21274] DEBUG -- : Read 11548 bytes
+D, [2011-05-11T23:21:00.131895 #21274] DEBUG -- : Read 11831 bytes
+D, [2011-05-11T23:21:00.193539 #21274] DEBUG -- : Read 13243 bytes
+D, [2011-05-11T23:21:00.193801 #21274] DEBUG -- : Read 14661 bytes
+D, [2011-05-11T23:21:00.194112 #21274] DEBUG -- : Read 15921 bytes
+D, [2011-05-11T23:21:00.194811 #21274] DEBUG -- : Read 17339 bytes
+D, [2011-05-11T23:21:00.195207 #21274] DEBUG -- : Read 18757 bytes
+D, [2011-05-11T23:21:00.195341 #21274] DEBUG -- : Read 19295 bytes
+D, [2011-05-11T23:21:00.199041 #21274] DEBUG -- : Read 20707 bytes
+D, [2011-05-11T23:21:00.200007 #21274] DEBUG -- : Read 22125 bytes
+D, [2011-05-11T23:21:00.200144 #21274] DEBUG -- : Read 23385 bytes
+D, [2011-05-11T23:21:00.212893 #21274] DEBUG -- : Read 24803 bytes
+D, [2011-05-11T23:21:00.214427 #21274] DEBUG -- : Read 26221 bytes
+D, [2011-05-11T23:21:00.214537 #21274] DEBUG -- : Read 27195 bytes
+D, [2011-05-11T23:21:00.214667 #21274] DEBUG -- : response-header: date => Thu, 12 May 2011 06:21:00 GMT
+D, [2011-05-11T23:21:00.214714 #21274] DEBUG -- : response-header: expires => -1
+D, [2011-05-11T23:21:00.214753 #21274] DEBUG -- : response-header: cache-control => private, max-age=0
+D, [2011-05-11T23:21:00.214790 #21274] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2011-05-11T23:21:00.214828 #21274] DEBUG -- : response-header: set-cookie => PREF=ID=0467762e18f414e5:U=bfcfc59956c4504a:FF=0:TM=1305181236:LM=1305181260:S=2CeIQy9D8hWCRPRC; expires=Sat, 11-May-2013 06:21:00 GMT; path=/; domain=.google.com
+D, [2011-05-11T23:21:00.214888 #21274] DEBUG -- : response-header: content-encoding => gzip
+D, [2011-05-11T23:21:00.214925 #21274] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2011-05-11T23:21:00.214974 #21274] DEBUG -- : response-header: server => gws
+D, [2011-05-11T23:21:00.215015 #21274] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2011-05-11T23:21:00.215076 #21274] DEBUG -- : gunzip body
+D, [2011-05-11T23:21:00.217180 #21274] DEBUG -- : saved cookie: PREF=ID=0467762e18f414e5:U=bfcfc59956c4504a:FF=0:TM=1305181236:LM=1305181260:S=2CeIQy9D8hWCRPRC
+I, [2011-05-11T23:21:00.217811 #21274]  INFO -- : status: 200
+I, [2011-05-11T23:31:25.464359 #21274]  INFO -- : Net::HTTP::Get: /
+D, [2011-05-11T23:31:25.464592 #21274] DEBUG -- : request-header: accept => */*
+D, [2011-05-11T23:31:25.464659 #21274] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_2; de-at) AppleWebKit/531.21.8 (KHTML, like Gecko) Version/4.0.4 Safari/531.21.10
+D, [2011-05-11T23:31:25.464718 #21274] DEBUG -- : request-header: accept-encoding => gzip,identity
+D, [2011-05-11T23:31:25.464771 #21274] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-05-11T23:31:25.464820 #21274] DEBUG -- : request-header: host => www.google.com
+D, [2011-05-11T23:31:25.464871 #21274] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2011-05-11T23:31:25.853171 #21274] DEBUG -- : Read 799 bytes
+D, [2011-05-11T23:31:25.853362 #21274] DEBUG -- : Read 2217 bytes
+D, [2011-05-11T23:31:25.853730 #21274] DEBUG -- : Read 3234 bytes
+D, [2011-05-11T23:31:25.854647 #21274] DEBUG -- : Read 4652 bytes
+D, [2011-05-11T23:31:25.854990 #21274] DEBUG -- : Read 6070 bytes
+D, [2011-05-11T23:31:25.856330 #21274] DEBUG -- : Read 7330 bytes
+D, [2011-05-11T23:31:25.856547 #21274] DEBUG -- : Read 8748 bytes
+D, [2011-05-11T23:31:25.856909 #21274] DEBUG -- : Read 9821 bytes
+D, [2011-05-11T23:31:25.857023 #21274] DEBUG -- : response-header: date => Thu, 12 May 2011 06:31:25 GMT
+D, [2011-05-11T23:31:25.857082 #21274] DEBUG -- : response-header: expires => -1
+D, [2011-05-11T23:31:25.857131 #21274] DEBUG -- : response-header: cache-control => private, max-age=0
+D, [2011-05-11T23:31:25.857173 #21274] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2011-05-11T23:31:25.857215 #21274] DEBUG -- : response-header: set-cookie => PREF=ID=56915d8719b4c067:FF=0:TM=1305181885:LM=1305181885:S=hfUvL7ehrWgMAxRw; expires=Sat, 11-May-2013 06:31:25 GMT; path=/; domain=.google.com, NID=46=OpWVNNIxPYlkXDHBm5N-jPzD3jemlJMmTYKzu98BU9jgNWeThpqAS9pElW8_kjV-aCYePdLmERGxYTir8XRCS4QQq9VsnApA5t72iRqkOXCjLtL1DYSSAwZgaj9HeOqv; expires=Fri, 11-Nov-2011 06:31:25 GMT; path=/; domain=.google.com; HttpOnly
+D, [2011-05-11T23:31:25.959921 #21274] DEBUG -- : response-header: content-encoding => gzip
+D, [2011-05-11T23:31:25.960035 #21274] DEBUG -- : response-header: server => gws
+D, [2011-05-11T23:31:25.960084 #21274] DEBUG -- : response-header: content-length => 9821
+D, [2011-05-11T23:31:25.960133 #21274] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2011-05-11T23:31:25.960217 #21274] DEBUG -- : gunzip body
+D, [2011-05-11T23:31:25.961488 #21274] DEBUG -- : saved cookie: PREF=ID=56915d8719b4c067:FF=0:TM=1305181885:LM=1305181885:S=hfUvL7ehrWgMAxRw
+D, [2011-05-11T23:31:25.962138 #21274] DEBUG -- : saved cookie: NID=46=OpWVNNIxPYlkXDHBm5N-jPzD3jemlJMmTYKzu98BU9jgNWeThpqAS9pElW8_kjV-aCYePdLmERGxYTir8XRCS4QQq9VsnApA5t72iRqkOXCjLtL1DYSSAwZgaj9HeOqv
+I, [2011-05-11T23:31:25.962814 #21274]  INFO -- : status: 200

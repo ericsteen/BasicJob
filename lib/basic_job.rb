@@ -1,11 +1,11 @@
 require 'mechanize'
 
-  class Job
+  class BasicJob
     attr_reader :downloader
 
     def initialize(opts={})
       config      = opts[:config]     ||= \
-                      Config.new(:filename => 'patent.yaml')
+                      JobConfig.new(:filename => 'patent.yaml')
       @downloader = opts[:downloader] ||= \
             config.downloader_class.constantize.new(config)
     end

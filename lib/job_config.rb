@@ -1,8 +1,8 @@
-class Config
+class JobConfig
   attr_reader :data, :env
 
   def self.config_path
-    File.join('config', 'external_resources')
+    File.join('..','config', 'external_resources')
   end
 
   def initialize(opts)
