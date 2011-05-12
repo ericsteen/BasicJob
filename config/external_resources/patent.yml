@@ -7,7 +7,8 @@ defaults: &defaults
   downloader_class: FtpDownloader
 
 test:
-  <<: *defaults
+  foo: bar
+  #<<: *defaults
 
 development:
   <<: *defaults
