@@ -8,12 +8,13 @@ class GoogleAgent
   end
 
   def get_data
-    temp = Tempfile.new(config.ftp_filename)
-    tempname = temp.path
-    temp.close
-    Net::FTP.open(config.ftp_host, config.ftp_login, config.ftp_password) do |ftp|
-      ftp.getbinaryfile(File.join(config.ftp_path, config.ftp_filename), tempname)
+    agent = Mechanize.new
+    agent.get("http://www.google.com")  
+    google_form = page.form('f')
+    google_form.q = 'ruby mechanize'
+    agent.page.submit(google_form)
+    agent.page.search(".search_result_item").each do |result|
+      Entity.create!(:name => result.text.strip)
     end
-    tempname
   end
 end
