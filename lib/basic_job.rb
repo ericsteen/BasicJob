@@ -2,10 +2,9 @@ class BasicJob
   attr_reader :downloader
 
   def initialize(opts={})
-    config      = opts[:config]     ||= \
-                    JobConfig.new(:filename => 'patent.yaml')
-    @downloader = opts[:downloader] ||= \
-          config.downloader_class.constantize.new(config)
+    config = opts[:config] || JobConfig.new(:filename => 'patent.yaml')
+    default_downloader = config.downloader_class.constantize.new(config)
+    @downloader = opts[:downloader] || default_downloader
   end
 
   def run
